@@ -4,6 +4,7 @@ import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import { RiMenu4Line } from "react-icons/ri"
 import { AiOutlineClose } from "react-icons/ai"
+import imgSrc from '../../assets/images/logo.png'
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("")
@@ -19,7 +20,7 @@ const Header = () => {
         <div className='container'>
           <div className='logo'>
             <Link href='/'>
-              <TitleLogo title='creative' caption='7' className='logomin' />
+              <TitleLogo img={imgSrc} width={80} height={50} caption='7' className='logomin' />
             </Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>
@@ -54,3 +55,4 @@ const Header = () => {
 }
 
 export default Header
+
