@@ -14,6 +14,7 @@ const SingleService = () => {
     <div>
       <Head>
         <title>{post.title}</title>
+        <h1>kaaz</h1>
       </Head>
       <section className="post-details bg-top">
         <div className="container">
