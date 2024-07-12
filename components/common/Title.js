@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const TitleLogo = ({ img, className, width, height }) => {
-  return <Image src={img} width={width} height={height} className={`${className}  title-logo`} />;
+  return <Image src={img} width={width} height={height} className={`${className}  title-logo`} alt="logo" />;
 };
 
 export const TitleSm = ({ title }) => {

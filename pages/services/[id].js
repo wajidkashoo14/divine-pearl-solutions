@@ -19,8 +19,6 @@ const SingleService = () => {
       <section className="post-details bg-top">
         <div className="container">
           <div className="heading-title">
-            {/* <br /> */}
-            {/* <br /> */}
             <Title title={service?.title} className="title-bg" />
             <div className="img py">
               <img
@@ -31,8 +29,8 @@ const SingleService = () => {
                 className="round"
               />
             </div>
-            {service?.paragraphs?.map(({ heading, text }) => (
-              <div className="desc">
+            {service?.paragraphs?.map(({ heading, text,id }) => (
+              <div key={id} className="desc">
                 <TitleSm title={heading} />
                 <p className="desc-p">{text} </p>
               </div>
