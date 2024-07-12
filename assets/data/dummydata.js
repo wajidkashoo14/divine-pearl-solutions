@@ -70,31 +70,31 @@ export const expertise = [
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
+    name: "John Smith",
     cover: "../images/e1.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    post: "Marketing Manager at Tech Innovators",
+    desc: "This digital agency has significantly boosted our online presence. Their expertise and creativity are unmatched. Highly recommended!",
   },
   {
     id: 2,
-    name: "Diana Green",
+    name: "Sarah Johnson",
     cover: "../images/e2.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    post: "CEO of Future Enterprises",
+    desc: "Exceeded our expectations! Their innovative SEO and content marketing have taken our search rankings to new heights. Thrilled with the results!",
   },
   {
     id: 3,
-    name: "Alexander Black",
+    name: "Michael Brown",
     cover: "../images/e3.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    post: "E-commerce Manager at Retail Giants",
+    desc: "Transformed our e-commerce platform, making it user-friendly and visually appealing. Their dedication to improving our conversion rates is impressive.",
   },
   {
     id: 4,
-    name: "Diana Green",
+    name: "Emily Davis",
     cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    post: "Head of Product at Innovative Solutions",
+    desc: "Exceptional professionalism and expertise. They created a stunning, high-performing website for us. Their ongoing support ensures our site stays up-to-date and secure.",
   },
 ];
 export const showcase = [
