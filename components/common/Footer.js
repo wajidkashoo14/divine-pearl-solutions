@@ -27,9 +27,6 @@ const Footer = () => {
                 <Link href='/'>About agency</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
-              </li>
-              <li>
                 <Link href='/'>Showcase</Link>
               </li>
               <li>
@@ -48,7 +45,7 @@ const Footer = () => {
                 <Link href='/'>Web Design & Development</Link>
               </li>
               <li>
-                <Link href='/'>Branding & Creative Services</Link>
+                <Link href='/'>Database Services Email List</Link>
               </li>
               <li>
                 <Link href='/'>Digital Marketing</Link>
@@ -85,10 +82,10 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+              <span>© 2024 ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>GORKCODER COMPANY</span>
+              <span>DIVINE PEARLS SOLUTIONS COMPANY</span>
               <span> &nbsp; | &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
             </div>

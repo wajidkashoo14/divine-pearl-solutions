@@ -9,7 +9,7 @@ const SingleService = () => {
   const router = useRouter();
   const { id } = router.query;
   const service = servicesData?.find((post) => post.id === parseInt(id));
-  console.log(service)
+  console.log(service);
 
   return (
     <div>
@@ -19,8 +19,8 @@ const SingleService = () => {
       <section className="post-details bg-top">
         <div className="container">
           <div className="heading-title">
-            <br />
-            <br />
+            {/* <br /> */}
+            {/* <br /> */}
             <Title title={service?.title} className="title-bg" />
             <div className="img py">
               <img
@@ -31,17 +31,16 @@ const SingleService = () => {
                 className="round"
               />
             </div>
-            {service?.paragraphs.map(({heading, text}) => (
+            {service?.paragraphs?.map(({ heading, text }) => (
               <div className="desc">
                 <TitleSm title={heading} />
                 <p className="desc-p">{text} </p>
               </div>
             ))}
           </div>
-
-          
-          <Banner />
-          
+          <div style={{margin:'2rem 0'}}>
+            <Banner />
+          </div>
         </div>
       </section>
     </div>
