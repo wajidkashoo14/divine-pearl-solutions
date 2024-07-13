@@ -374,3 +374,40 @@ footer {
     }
   }
 }
+
+.legal-connect-py {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+@media screen and (max-width: 800px) {
+ .hero .hero-title {
+    font-size: 2.7rem;
+    line-height: 50px;
+  }
+  .sub-heading {
+    flex-direction: column;
+  }
+  .titleSm {
+    font-size: 20px;
+  }
+
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .banner {
+    padding: 0 .7rem;
+  }
+  div.legal-connect-py {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+}

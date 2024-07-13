@@ -77,14 +77,12 @@ const Footer = () => {
               </div>
             </ul>
           </div>
-          <div className='legal connect py'>
+          <div className='legal-connect-py'>
             <div className='text'>
               <span>© 2024 ALL RIGHTS RESERVED.</span>
             </div>
-            <div className='connect'>
+            <div className='connect copywrite'>
               <span>DIVINE PEARLS SOLUTIONS COMPANY</span>
-              <span> &nbsp; | &nbsp; </span>
-              <span>TERMS & CONDITIONS</span>
             </div>
           </div>
         </div>
