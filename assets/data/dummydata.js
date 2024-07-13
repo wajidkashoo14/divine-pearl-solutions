@@ -191,6 +191,7 @@ export const blogdata = [
   {
     id: 3,
     title: "Building Relationships and Driving Conversions",
+    cover: "../images/relationships.jpg",
     subtitle:
       " Proven Strategies to Engage Your Audience and Increase Conversions Through Effective Email Campaigns",
     cover: "../images/relationships.jpg",
@@ -204,6 +205,7 @@ export const blogdata = [
   {
     id: 4,
     title: "Creating a User-Friendly Website",
+    cover: "../images/website.jpg",
     subtitle:
       "Key Principles and Practices for Designing and Developing an Engaging, High-Performing Website",
     cover: "../images/website.jpg",

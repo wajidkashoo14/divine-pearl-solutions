@@ -10,10 +10,10 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='creative' caption='7' className='logobg' />
+              <TitleLogo title='Divine Pearls Solutions'img='/images/logo.jpg' width={60} height={40} />
               <br />
               <span>
-                Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
+                16192 Coastal Highway Lewes, DE 19958
               </span>
               <br />
               <br />
@@ -25,9 +25,6 @@ const Footer = () => {
               <h3>COMPANY</h3>
               <li>
                 <Link href='/'>About agency</Link>
-              </li>
-              <li>
-                <Link href='/'>Showcase</Link>
               </li>
               <li>
                 <Link href='/'>Blog</Link>

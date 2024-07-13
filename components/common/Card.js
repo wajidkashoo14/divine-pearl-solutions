@@ -2,7 +2,8 @@ import Link from "next/link"
 import { TitleSm } from "./Title"
 import { HiOutlineArrowRight } from "react-icons/hi"
 
-export const Card = ({ data, caption, show, path }) => {
+export const Card = ({ data, caption, show, path = "/" }) => {
+  console.log(data, data)
   return (
     <>
       <div className='card'>
@@ -10,7 +11,7 @@ export const Card = ({ data, caption, show, path }) => {
           <img src={data.cover} alt={data.title} />
         </div>
         <div className='card-details'>
-          <Link href={`${path}/${data.id}`} className='title-link'>
+          <Link href={`${path}/${data.id ? data.id : ""}`} className='title-link'>
             <TitleSm title={data.title} />
           </Link>
           {caption && (
