@@ -167,7 +167,7 @@ export const blogdata = [
     title: "The Power of Social Media Marketing",
     subtitle:
       "Unleashing the Full Potential of Social Media to Drive Brand Awareness and Business Growth",
-    cover: "../images/socialmedia.jpeg",
+    cover: "../images/socialmedia.jpg",
     catgeory: "INDUSTRY",
     date: "JANUARY 12, 2023",
     description: [
@@ -252,7 +252,7 @@ export const servicesData = [
   {
     id: 2,
     title: "The Power of Social Media Marketing: Strategies for Success",
-    cover: "../images/socialmedia.jpeg",
+    cover: "../images/socialmedia.jpg",
     subheading:
       "Unleashing the Full Potential of Social Media to Drive Brand Awareness and Business Growth",
     paragraphs: [
@@ -283,6 +283,7 @@ export const servicesData = [
     title: "E-Commerce: Building a Successful Online Store",
     subheading:
       "Strategies and Tools for Creating and Managing a Thriving E-Commerce Business",
+      cover: "../images/e3.jpg",
     paragraphs: [
       {
         heading: "Choosing the Right Platform",
@@ -310,6 +311,7 @@ export const servicesData = [
     id: 4,
     title: "Database Services Email List",
     subheading: "Comprehensive and Up-to-Date Contacts for Your Business Needs",
+    cover: "../images/database.jpg",
     paragraphs: [
       {
         heading: "Comprehensive and Up-to-Date Contacts",
