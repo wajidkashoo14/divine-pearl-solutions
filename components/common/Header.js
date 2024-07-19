@@ -21,7 +21,7 @@ const Header = () => {
           <div className="logo">
             <Link href="/">
               <TitleLogo
-                img="/images/logo.jpg"
+                img="/images/logo.png"
                 width={80}
                 height={50}
                 caption="7"
