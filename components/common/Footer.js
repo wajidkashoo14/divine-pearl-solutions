@@ -19,36 +19,36 @@ const Footer = () => {
               <br />
               <h3>+1 001 234 5678</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              <button className='button-primary'><Link href='/contact'>Request for quote</Link></button>
             </div>
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='/agency'>About agency</Link>
               </li>
               <li>
-                <Link href='/'>Blog</Link>
+                <Link href='/blogs'>Blog</Link>
               </li>
               <li>
-                <Link href='/'>Demo design system</Link>
+                <Link href='/services'>Services</Link>
               </li>
               <li>
-                <Link href='/'>Contact</Link>
+                <Link href='/contact'>Contact</Link>
               </li>
             </ul>
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/'>Web Design & Development</Link>
+                <Link href='/services'>Web Design & Development</Link>
               </li>
               <li>
-                <Link href='/'>Database Services Email List</Link>
+                <Link href='/services'>Database Services Email List</Link>
               </li>
               <li>
-                <Link href='/'>Digital Marketing</Link>
+                <Link href='/services'>Digital Marketing</Link>
               </li>
               <li>
-                <Link href='/'>E-Commerce</Link>
+                <Link href='/services'>E-Commerce</Link>
               </li>
             </ul>
             <ul>
