@@ -10,7 +10,7 @@ const Expertise = () => {
         <div className='container'>
           <div className='heading-title'>
             <Title title='Our expertise' />
-            <p>Divine Pearls Solutions specializes in digital marketing, web design, and development. We craft tailored, high-impact solutions to boost online presence, drive engagement, and foster business growth.</p>
+            <p>Divine pearls solution specializes in digital marketing, web design, and development. We craft tailored, high-impact solutions to boost online presence, drive engagement, and foster business growth.</p>
           </div>
           <div className='hero-content grid-4'>
             {expertise.map((item) => (

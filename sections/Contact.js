@@ -31,7 +31,8 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
-                  <h3>info@dream-theme.com</h3>
+                  <span>Info@divinepearlssolutions.com</span>
+                  <span>Support@divinepearlssolutions.com</span>
                   <span>Drop us a line anytime!</span>
                 </div>
                 <div className='box'>
