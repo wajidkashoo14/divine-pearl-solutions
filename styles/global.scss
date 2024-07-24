@@ -265,6 +265,9 @@ footer {
     }
     .box {
       margin-bottom: $xll;
+      p {
+        font-size: 10px;
+      }
       .icons {
         color: $green;
       }
@@ -358,6 +361,11 @@ footer {
   }
   .contact {
     .content {
+      .box {
+        p {
+          font-size: 14px;
+        }
+      }
       .left {
         text-align: center;
         margin-bottom: 50px;

@@ -31,8 +31,8 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
-                  <span>Info@divinepearlssolutions.com</span>
-                  <span>Support@divinepearlssolutions.com</span>
+                  <p>Info@divinepearlssolutions.com</p>
+                  <p>Support@divinepearlssolutions.com</p>
                   <span>Drop us a line anytime!</span>
                 </div>
                 <div className='box'>
