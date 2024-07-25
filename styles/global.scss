@@ -266,8 +266,9 @@ footer {
     .box {
       margin-bottom: $xll;
       p {
-        font-size: 10px;
+        font-size: 16px;
       }
+
       .icons {
         color: $green;
       }
@@ -363,7 +364,7 @@ footer {
     .content {
       .box {
         p {
-          font-size: 14px;
+          font-size: 12px;
         }
       }
       .left {
@@ -390,7 +391,7 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
- .hero .hero-title {
+  .hero .hero-title {
     font-size: 2.7rem;
     line-height: 50px;
   }
@@ -401,15 +402,18 @@ footer {
     font-size: 20px;
   }
 
-  .box{
+  .box {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    p {
+      font-size: 10px;
+    }
   }
 
   .banner {
-    padding: 0 .7rem;
+    padding: 0 0.7rem;
   }
   div.legal-connect-py {
     display: flex;
@@ -424,5 +428,4 @@ footer {
     align-items: center;
     flex-direction: column;
   }
-  
 }

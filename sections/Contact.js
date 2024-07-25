@@ -21,7 +21,7 @@ const Contact = () => {
               <div className='contact-deatils'>
                 <div className='box'>
                   <FiHeadphones size={30} className='icons' />
-                  <h3>1-001-234-5678</h3>
+                  {/* <h3>1-001-234-5678</h3> */}
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className='box'>
@@ -41,7 +41,7 @@ const Contact = () => {
                   <span>Career at Seven Creative</span>
                 </div>
               </div>
-              <ul>
+              {/* <ul>
                 <li className='icon'>
                   <BsFacebook size={25} />
                 </li>
@@ -54,7 +54,7 @@ const Contact = () => {
                 <li className='icon'>
                   <AiFillLinkedin size={25} />
                 </li>
-              </ul>
+              </ul> */}
             </div>
             <div className='right w-70'>
               <TitleSm title='Make an online enquiry' />

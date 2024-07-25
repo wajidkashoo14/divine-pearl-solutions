@@ -15,7 +15,7 @@ const Hero = () => {
 
           <div className='sub-heading'>
             <TitleSm title='WEBSITES' /> <span>.</span>
-            <TitleSm title='BRANDING' /> <span>.</span>
+            <TitleSm title='DATABASE SERVICES' /> <span>.</span>
             <TitleSm title='DIGITAL MARKETING' />
           </div>
         </div>
