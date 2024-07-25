@@ -18,7 +18,7 @@ const Agency = () => {
             <div className='left w-60 py'>
               <TitleSm title='Turning your business ideas into smart digital products since 2001' />
               <p className='desc-p'>Since 2001, Divine Pearls Solutions has been transforming innovative business ideas into intelligent, digital products. Our seasoned team excels in delivering custom solutions in digital marketing, web design, and development, ensuring exceptional quality, performance, and client satisfaction. Trust us to bring your vision to life in the digital realm.</p>
-              <div className='grid-3'>
+              <div className='grid-3 min'>
                 <div className='box'>
                   <h1 className='indigo'>10+</h1>
                   <h3>Years of experience</h3>
