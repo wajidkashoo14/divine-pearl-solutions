@@ -56,16 +56,16 @@ export const expertise = [
       { text: "Hosting" },
     ],
   },
-  {
-    id: 4,
-    title: "Database Services Email List",
-    cover: "../images/e4.jpg",
-    desc: [
-      { text: "Comprehensive and Up-to-Date Contacts" },
-      { text: "Tailored to Your Business Needs" },
-      { text: "High-Quality Data for Maximum Impact" },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: "Database Services Email List",
+  //   cover: "../images/e4.jpg",
+  //   desc: [
+  //     { text: "Comprehensive and Up-to-Date Contacts" },
+  //     { text: "Tailored to Your Business Needs" },
+  //     { text: "High-Quality Data for Maximum Impact" },
+  //   ],
+  // },
 ];
 export const testimonial = [
   {
@@ -307,24 +307,24 @@ export const servicesData = [
       },
     ],
   },
-  {
-    id: 4,
-    title: "Database Services Email List",
-    subheading: "Comprehensive and Up-to-Date Contacts for Your Business Needs",
-    cover: "../images/database.jpg",
-    paragraphs: [
-      {
-        heading: "Comprehensive and Up-to-Date Contacts",
-        text: "Our database services email list provides you with a comprehensive and up-to-date collection of contacts. We ensure that our email lists are regularly updated to include the latest information, helping you reach the right audience effectively.",
-      },
-      {
-        heading: "Tailored to Your Business Needs",
-        text: "We understand that every business has unique requirements. Our email lists can be tailored to meet your specific needs, ensuring that you get the most relevant contacts for your marketing campaigns, lead generation, or customer outreach.",
-      },
-      {
-        heading: "High-Quality Data for Maximum Impact",
-        text: "Our commitment to quality ensures that you receive high-quality data for maximum impact. We meticulously verify and validate our email lists to maintain high accuracy and reliability, enabling you to achieve better engagement and higher conversion rates.",
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: "Database Services Email List",
+  //   subheading: "Comprehensive and Up-to-Date Contacts for Your Business Needs",
+  //   cover: "../images/database.jpg",
+  //   paragraphs: [
+  //     {
+  //       heading: "Comprehensive and Up-to-Date Contacts",
+  //       text: "Our database services email list provides you with a comprehensive and up-to-date collection of contacts. We ensure that our email lists are regularly updated to include the latest information, helping you reach the right audience effectively.",
+  //     },
+  //     {
+  //       heading: "Tailored to Your Business Needs",
+  //       text: "We understand that every business has unique requirements. Our email lists can be tailored to meet your specific needs, ensuring that you get the most relevant contacts for your marketing campaigns, lead generation, or customer outreach.",
+  //     },
+  //     {
+  //       heading: "High-Quality Data for Maximum Impact",
+  //       text: "Our commitment to quality ensures that you receive high-quality data for maximum impact. We meticulously verify and validate our email lists to maintain high accuracy and reliability, enabling you to achieve better engagement and higher conversion rates.",
+  //     },
+  //   ],
+  // },
 ];
