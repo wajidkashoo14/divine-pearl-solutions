@@ -7,9 +7,6 @@ import { AiOutlineClose } from "react-icons/ai";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
-
-
-
 const Header = () => {
   const [activeLink, setActiveLink] = useState("");
   const [open, setOpen] = useState(false);
@@ -25,9 +22,9 @@ const Header = () => {
           <div className="logo">
             <Link href="/">
               <TitleLogo
-                img="/images/logo.png"
-                width={80}
-                height={50}
+                img="/images/logo.svg"
+                width={100}
+                height={60}
                 caption="7"
                 className="logomin"
               />
@@ -57,14 +54,26 @@ const Header = () => {
             </Link>
             <Link
               href="/services"
-              className={`more ${activeLink == "/services" ? "activeLink" : "none"}`}
+              className={`more ${
+                activeLink == "/services" ? "activeLink" : "none"
+              }`}
             >
               Services <MdOutlineKeyboardArrowDown />
               <div className="list">
-                <Link className="link" href="/database-services">Database Services<MdOutlineArrowRightAlt className="arr" /></Link>
-                <Link className="link" href="healthcare-email-lists">Healthcare Email Lists <MdOutlineArrowRightAlt className="arr" /></Link>
-                <Link className="link" href="industry-wise-list">Industry Wise Lists <MdOutlineArrowRightAlt className="arr" /></Link>
-                <Link className="link" href="c-level-listing">C-Level Email Lists <MdOutlineArrowRightAlt className="arr" /></Link>
+                <Link className="link" href="/database-services">
+                  Database Services
+                  <MdOutlineArrowRightAlt className="arr" />
+                </Link>
+                <Link className="link" href="healthcare-email-lists">
+                  Healthcare Email Lists{" "}
+                  <MdOutlineArrowRightAlt className="arr" />
+                </Link>
+                <Link className="link" href="industry-wise-list">
+                  Industry Wise Lists <MdOutlineArrowRightAlt className="arr" />
+                </Link>
+                <Link className="link" href="c-level-listing">
+                  C-Level Email Lists <MdOutlineArrowRightAlt className="arr" />
+                </Link>
               </div>
             </Link>
             <Link
