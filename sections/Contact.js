@@ -19,11 +19,11 @@ const Contact = () => {
           <div className='content py flex1'>
             <div className='left w-30'>
               <div className='contact-deatils'>
-                <div className='box'>
+                {/* <div className='box'>
                   <FiHeadphones size={30} className='icons' />
-                  {/* <h3>1-001-234-5678</h3> */}
+                  <h3>1-001-234-5678</h3>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
-                </div>
+                </div> */}
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
                   <h3>New Jersey</h3>
@@ -37,7 +37,7 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>hr@dream-theme.com</h3>
+                  <h3>hr@divinepearlssolutions.com</h3>
                   <span>Career at Seven Creative</span>
                 </div>
               </div>
