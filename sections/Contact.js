@@ -14,7 +14,7 @@ const Contact = () => {
           <div className='heading-title'>
             <TitleSm title='CONTACT' /> <br />
             <br />
-            <Title title="Let's start right now!" className='title-bg' />
+            {/* <Title title="Let's start right now!" className='title-bg' /> */}
           </div>
           <div className='content py flex1'>
             <div className='left w-30'>
@@ -26,7 +26,7 @@ const Contact = () => {
                 </div> */}
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
-                  <h3>New Jersey</h3>
+                  <h3>Delware</h3>
                   <span> 16192 Coastal Highway Lewes, DE 19958</span>
                 </div>
                 <div className='box'>

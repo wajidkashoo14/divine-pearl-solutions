@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='Divine Pearls Solutions'img='/images/logo.png' width={80} height={80} />
+              <TitleLogo title='Divine Pearls Solutions'img='/images/logo.svg' width={80} height={80} />
               <br />
               <span>
                 16192 Coastal Highway Lewes, DE 19958
