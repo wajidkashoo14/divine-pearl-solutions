@@ -51,7 +51,7 @@ const Footer = () => {
                 <Link href='/services'>E-Commerce</Link>
               </li>
             </ul>
-            <ul>
+            {/* <ul>
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
@@ -75,7 +75,7 @@ const Footer = () => {
                   </Link>
                 </li>
               </div>
-            </ul>
+            </ul> */}
           </div>
           <div className='legal-connect-py'>
             <div className='text'>
